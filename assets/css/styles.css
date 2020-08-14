@@ -65,6 +65,8 @@ header .contenedor .titular .social-media div a {
   color: #ffffff;
   text-align: center;
   font-size: 35px;
+  margin: 10px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
