@@ -27,7 +27,7 @@ header .contenedor .menu .logo-menu {
   align-items: center;
 }
 header .contenedor .menu .logo-menu img {
-  width: 130px;
+  width: 100px;
 }
 header .contenedor .menu .logo-menu nav ul {
   display: flex;
@@ -53,7 +53,7 @@ header .contenedor .menu .boton a {
 }
 header .contenedor .titular {
   color: #ffffff;
-  margin-top: 35vh;
+  margin-top: 40vh;
 }
 header .contenedor .titular h1 {
   font-size: 30px;
