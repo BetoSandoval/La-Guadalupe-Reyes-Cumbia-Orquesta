@@ -17,6 +17,7 @@ header .contenedor {
   margin: auto;
 }
 header .contenedor .menu {
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,7 +41,7 @@ header .contenedor .menu .logo-menu nav ul li a {
   color: #ffffff;
 }
 header .contenedor .menu .boton {
-  background: yellow;
+  background: #e9cb25;
   border-radius: 3px;
   font-size: 12px;
 }
@@ -55,18 +56,26 @@ header .contenedor .titular {
   margin-top: 40vh;
 }
 header .contenedor .titular h1 {
-  font-size: 40px;
+  font-size: 35px;
   width: 70%;
 }
 header .contenedor .titular h1 .amarillo {
-  color: yellow;
+  color: #e9cb25;
+}
+header .contenedor .titular .social-media div {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
 }
 header .contenedor .titular .social-media div a {
-  color: #ffffff;
-  text-align: center;
+  width: 15%;
+  background: rgba(233, 203, 37, 0.7);
+  color: #000000;
   font-size: 35px;
   margin: 10px;
   padding: 5px;
+  text-align: center;
+  border-radius: 6px;
 }
 
 /*# sourceMappingURL=styles.css.map */
