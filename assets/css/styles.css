@@ -52,10 +52,10 @@ header .contenedor .menu .boton a {
 }
 header .contenedor .titular {
   color: #ffffff;
-  margin-top: 30vh;
+  margin-top: 40vh;
 }
 header .contenedor .titular h1 {
-  font-size: 50px;
+  font-size: 40px;
   width: 70%;
 }
 header .contenedor .titular h1 .amarillo {
