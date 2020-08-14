@@ -2,6 +2,69 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: 0;
+  font-family: "Krona One", sans-serif;
+}
+
+header {
+  height: 750px;
+  background-image: url(../img/header-background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header .contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+header .contenedor .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .contenedor .menu .logo-menu {
+  display: flex;
+  align-items: center;
+}
+header .contenedor .menu .logo-menu img {
+  width: 130px;
+}
+header .contenedor .menu .logo-menu nav ul {
+  display: flex;
+}
+header .contenedor .menu .logo-menu nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+header .contenedor .menu .logo-menu nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header .contenedor .menu .boton {
+  background: yellow;
+  border-radius: 3px;
+  font-size: 12px;
+}
+header .contenedor .menu .boton a {
+  color: #000000;
+  padding: 20px 40px;
+  text-decoration: none;
+  line-height: 50px;
+}
+header .contenedor .titular {
+  color: #ffffff;
+  margin-top: 30vh;
+}
+header .contenedor .titular h1 {
+  font-size: 50px;
+  width: 70%;
+}
+header .contenedor .titular h1 .amarillo {
+  color: yellow;
+}
+header .contenedor .titular .social-media div a {
+  color: #ffffff;
+  text-align: center;
+  font-size: 35px;
 }
 
 /*# sourceMappingURL=styles.css.map */
