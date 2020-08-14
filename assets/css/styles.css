@@ -53,10 +53,10 @@ header .contenedor .menu .boton a {
 }
 header .contenedor .titular {
   color: #ffffff;
-  margin-top: 40vh;
+  margin-top: 35vh;
 }
 header .contenedor .titular h1 {
-  font-size: 35px;
+  font-size: 30px;
   width: 70%;
 }
 header .contenedor .titular h1 .amarillo {
@@ -76,6 +76,33 @@ header .contenedor .titular .social-media div a {
   padding: 5px;
   text-align: center;
   border-radius: 6px;
+}
+
+.conocenos {
+  background: #000000;
+  color: #ffffff;
+}
+.conocenos .contenedor {
+  display: flex;
+  align-items: center;
+}
+.conocenos .contenedor .texto h4 {
+  margin: 0;
+  color: #e9cb25;
+  border: 1px solid #cccccc;
+  font-size: 10px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.conocenos .contenedor .texto h2 span {
+  color: #e9cb25;
+  text-decoration: underline;
+  font-size: 15;
+}
+.conocenos .contenedor .texto p {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
