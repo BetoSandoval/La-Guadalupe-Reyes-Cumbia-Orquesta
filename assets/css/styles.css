@@ -83,11 +83,19 @@ header .contenedor .titular .social-media div a {
   color: #ffffff;
 }
 .conocenos .contenedor {
+  width: 90%;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.conocenos .contenedor .texto {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .conocenos .contenedor .texto h4 {
-  margin: 0;
+  display: inline-block;
   color: #e9cb25;
   border: 1px solid #cccccc;
   font-size: 10px;
@@ -96,13 +104,8 @@ header .contenedor .titular .social-media div a {
   border-radius: 10px;
   text-align: center;
 }
-.conocenos .contenedor .texto h2 span {
-  color: #e9cb25;
-  text-decoration: underline;
-  font-size: 15;
-}
-.conocenos .contenedor .texto p {
-  font-size: 10px;
+.conocenos .contenedor .texto .integrantes img {
+  width: 600px;
 }
 
 /*# sourceMappingURL=styles.css.map */
