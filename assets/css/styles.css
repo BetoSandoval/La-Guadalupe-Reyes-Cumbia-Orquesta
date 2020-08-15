@@ -99,8 +99,8 @@ header .contenedor .titular .social-media div a {
   display: inline-block;
   color: #e9cb25;
   border: 1px solid #cccccc;
-  font-size: 15px;
-  width: 150px;
+  font-size: 20px;
+  width: 300px;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
@@ -113,12 +113,19 @@ header .contenedor .titular .social-media div a {
   border-radius: 6px;
 }
 
+.eventos {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .eventos h4 {
   display: inline-block;
   color: #e9cb25;
   border: 1px solid #cccccc;
-  font-size: 15px;
-  width: 150px;
+  font-size: 20px;
+  width: 300px;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
@@ -126,6 +133,8 @@ header .contenedor .titular .social-media div a {
 .eventos .contenedor-slider {
   width: 100%;
   position: relative;
+  padding: 20px;
+  margin: auto;
 }
 .eventos .contenedor-slider .slider {
   width: 100%;
@@ -140,7 +149,7 @@ header .contenedor .titular .social-media div a {
 }
 .eventos .contenedor-slider .slider li section {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 100%;
   padding: 15px 50px;
   top: 0;
@@ -155,24 +164,41 @@ header .contenedor .titular .social-media div a {
   font-size: 40px;
 }
 .eventos .contenedor-slider .slider li section p {
-  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  width: 80%;
 }
 .eventos .contenedor-slider .paginacion {
   position: absolute;
   list-style: none;
+  top: 102%;
+  display: flex;
+  justify-content: center;
+  width: 90%;
 }
-.eventos .contenedor-slider .flechas .left {
+.eventos .contenedor-slider .paginacion li {
+  font-size: 20px;
+  margin: 2px 5px;
+  color: rgba(233, 203, 37, 0.7);
+  cursor: pointer;
+}
+.eventos .contenedor-slider .left {
   position: absolute;
+  margin: 20px;
   top: 0;
+  left: 15px;
   height: 100%;
   display: flex;
   align-items: center;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 35px;
 }
-.eventos .contenedor-slider .flechas .right {
+.eventos .contenedor-slider .right {
   position: absolute;
+  margin: 20px;
   top: 0;
+  right: 15px;
   height: 100%;
   display: flex;
   align-items: center;
