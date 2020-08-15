@@ -1,4 +1,7 @@
+$base-white: #ffffff
 $base-yellow: #e9cb25
+$base-black: #000000
+
 .eventos
     h4
         display: inline-block
@@ -10,10 +13,50 @@ $base-yellow: #e9cb25
         border-radius: 10px
         text-align: center
     .contenedor-slider
+        width: 100%
+        position: relative
         .slider
+            width: 100%
             list-style: none
-            li 
-                img 
-                    max-width: 100%
+            padding: 0
+            li
+                width: 100%
+                img
+                    width: 100%
+                section
+                    position: absolute
+                    width: 100%
+                    height: 100%
+                    padding: 15px 50px
+                    top: 0
+                    left: 0
+                    color: $base-white
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                    text-align: center
+                    z-index: 1
+                    font-size: 40px
+                    p
+                        font-size: 20px
         .paginacion
+            position: absolute
             list-style: none
+        .flechas
+            .left
+                position: absolute
+                top: 0
+                height: 100%
+                display: flex
+                align-items: center
+                color: $base-white
+                font-size: 40px
+            .right
+                position: absolute
+                top: 0
+                height: 100%
+                display: flex
+                align-items: center
+                color: $base-white
+                font-size: 35px
