@@ -84,7 +84,6 @@ header .contenedor .titular .social-media div a {
   padding: 60px 0;
 }
 .conocenos .contenedor {
-  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -121,8 +120,9 @@ header .contenedor .titular .social-media div a {
   align-items: center;
 }
 .eventos h4 {
+  background: #e9cb25;
   display: inline-block;
-  color: #e9cb25;
+  color: #000000;
   border: 1px solid #cccccc;
   font-size: 20px;
   width: 300px;
@@ -142,32 +142,15 @@ header .contenedor .titular .social-media div a {
   padding: 0;
 }
 .eventos .contenedor-slider .slider li {
-  width: 100%;
+  width: 90%;
 }
 .eventos .contenedor-slider .slider li img {
+  margin: auto;
+  display: block;
   width: 100%;
-}
-.eventos .contenedor-slider .slider li section {
-  position: absolute;
-  width: 90%;
-  height: 100%;
-  padding: 15px 50px;
-  top: 0;
-  left: 0;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  z-index: 1;
-  font-size: 40px;
-}
-.eventos .contenedor-slider .slider li section p {
-  display: inline-block;
-  text-align: center;
-  font-size: 15px;
-  width: 80%;
+  border-radius: 9px;
+  position: relative;
+  left: 5.6%;
 }
 .eventos .contenedor-slider .paginacion {
   position: absolute;
@@ -191,7 +174,7 @@ header .contenedor .titular .social-media div a {
   height: 100%;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #e9cb25;
   font-size: 35px;
 }
 .eventos .contenedor-slider .right {
@@ -202,7 +185,7 @@ header .contenedor .titular .social-media div a {
   height: 100%;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #e9cb25;
   font-size: 35px;
 }
 
