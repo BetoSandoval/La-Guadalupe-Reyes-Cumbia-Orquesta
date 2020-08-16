@@ -1,0 +1,44 @@
+$base-white: #ffffff
+$base-yellow: #e9cb25
+$base-black: #000000
+
+.galeria
+    background: $base-yellow
+    display: flex
+    flex-direction: column
+    align-items: center
+    h4
+        background: $base-black
+        display: inline-block
+        color: $base-white
+        border: 1px solid #cccccc
+        font-size: 20px
+        width: 300px
+        padding: 10px
+        text-align: center
+        border-radius: 6px
+    .galery-container
+        display: grid
+        grid-template-columns:  repeat(4, 1fr)
+        grid-auto-rows: 150px
+        padding: 20px
+        grid-gap: 10px
+        .glaeria-item
+            &:nth-child(1)
+                grid-row-start: span 2
+            &:nth-child(3)
+                grid-row-start: span 3
+            &:nth-child(4)
+                grid-row-start: span 2
+            &:nth-child(8)
+                grid-row-start: span 3
+            &:nth-child(10)
+                grid-row-start: span 3
+            &:nth-child(11)
+                grid-row: span 2
+            &:nth-child(12)
+                grid-row: span 2
+            img 
+                width: 100%
+                height: 100%
+                object-fit: cover
