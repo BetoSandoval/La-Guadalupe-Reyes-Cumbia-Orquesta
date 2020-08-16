@@ -114,10 +114,12 @@ header .contenedor .titular .social-media div a {
 
 .eventos {
   width: 90%;
+  height: 500px;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 .eventos h4 {
   background: #e9cb25;
@@ -127,8 +129,8 @@ header .contenedor .titular .social-media div a {
   font-size: 20px;
   width: 300px;
   padding: 10px;
-  border-radius: 10px;
   text-align: center;
+  border-radius: 6px;
 }
 
 /*# sourceMappingURL=styles.css.map */
