@@ -135,15 +135,15 @@ header .contenedor .titular .social-media div a {
 
 .galeria {
   background: #e9cb25;
+  padding: 60px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .galeria h4 {
-  background: #000000;
   display: inline-block;
-  color: #ffffff;
-  border: 1px solid #cccccc;
+  color: #000000;
+  border: 1.5px solid #000000;
   font-size: 20px;
   width: 300px;
   padding: 10px;
@@ -182,6 +182,78 @@ header .contenedor .titular .social-media div a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+footer .contacto {
+  padding: 60px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .contacto .formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+footer .contacto .formulario-contacto h3 {
+  display: inline-block;
+  color: #000000;
+  border: 2px solid #e9cb25;
+  font-size: 15px;
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 6px;
+}
+footer .contacto .formulario-contacto .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+footer .contacto .formulario-contacto .formulario input[type=text] {
+  width: 40%;
+  margin-bottom: 15px;
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #2c2b2b;
+}
+footer .contacto .formulario-contacto .formulario input[type=email] {
+  width: 40%;
+  margin-bottom: 15px;
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #2c2b2b;
+}
+footer .contacto .formulario-contacto .formulario textarea {
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #2c2b2b;
+  width: 60%;
+  height: 100px;
+  max-width: 60%;
+  min-width: 50%;
+  min-height: 100px;
+  max-height: 300px;
+  margin-bottom: 15px;
+}
+footer .contacto .formulario-contacto .formulario .botton {
+  font-family: "Krona One", sans-serif;
+  margin: auto;
+  background: #000000;
+  color: #e9cb25;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 40px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
