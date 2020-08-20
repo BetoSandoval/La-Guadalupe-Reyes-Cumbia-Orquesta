@@ -1,3 +1,51 @@
-@media screen and ( max-width: 1324px  )
-    header
-        width: 100%
+$base-white: #ffffff
+$base-yellow: #e9cb25
+$base-black: #000000
+
+@media screen and ( max-width: 1200px  )
+    body
+        header
+            .contenedor
+                width: 80%
+                margin: auto
+                .menu
+                    flex-direction: column
+                    .logo-menu
+                        justify-content: space-between
+                        img 
+                        .hamburguer
+                            display: inline-block
+                            color: $base-yellow
+                            font-size: 35px
+                        nav
+                            background: $base-yellow
+                            position: absolute
+                            width: 100%
+                            top: 60px
+                            display: none
+                            li
+                                margin-bottom: 20px
+                                a
+                                    color: $base-black
+                            ul
+                                flex-direction: column
+                    .boton
+                        display: none
+                .titular
+                    margin-top: 18vh
+        .conocenos
+            .contenedor
+                flex-direction: column-reverse
+
+
+@media screen and ( max-width: 800px  )
+    body
+        header
+           height: 550px
+           background-size: 1000px 550px
+           background-repeat: no-repeat
+           .contenedor
+                .titular
+                    margin-top: 15vh
+                    h1 
+                        font-size: 20px

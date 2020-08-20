@@ -3,24 +3,27 @@ $base-yellow: #e9cb25
 $base-black: #000000
 
 header
+    width: 100%
     height: 750px
     background-image: url(../img/header-background.jpg)
     background-size: cover
     background-position: center
     .contenedor
         width: 90%
-        max-width: 1280px
         margin: auto
         .menu
             padding-top: 10px
             display: flex
             justify-content: space-between
-            align-items: center
+            // align-items: center
             .logo-menu
                 display: flex
+                justify-content: space-between
                 align-items: center
                 img
                     width: 100px
+                .hamburguer
+                    display: none
                 nav
                     ul
                         display: flex
@@ -34,6 +37,7 @@ header
                 background: $base-yellow
                 border-radius: 3px
                 font-size: 12px
+                height: 50%
                 a
                     color: $base-black
                     padding: 20px 40px
@@ -53,6 +57,7 @@ header
                     width: 30%
                     justify-content: space-around
                     a
+                        display: inline-block
                         width: 13%
                         background: rgba( $base-yellow, 0.7)
                         color: $base-black

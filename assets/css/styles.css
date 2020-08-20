@@ -10,6 +10,7 @@ body {
 }
 
 header {
+  width: 100%;
   height: 750px;
   background-image: url(../img/header-background.jpg);
   background-size: cover;
@@ -17,21 +18,23 @@ header {
 }
 header .contenedor {
   width: 90%;
-  max-width: 1280px;
   margin: auto;
 }
 header .contenedor .menu {
   padding-top: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 header .contenedor .menu .logo-menu {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 header .contenedor .menu .logo-menu img {
   width: 100px;
+}
+header .contenedor .menu .logo-menu .hamburguer {
+  display: none;
 }
 header .contenedor .menu .logo-menu nav ul {
   display: flex;
@@ -48,6 +51,7 @@ header .contenedor .menu .boton {
   background: #e9cb25;
   border-radius: 3px;
   font-size: 12px;
+  height: 50%;
 }
 header .contenedor .menu .boton a {
   color: #000000;
@@ -72,6 +76,7 @@ header .contenedor .titular .social-media div {
   justify-content: space-around;
 }
 header .contenedor .titular .social-media div a {
+  display: inline-block;
   width: 13%;
   background: rgba(233, 203, 37, 0.7);
   color: #000000;
@@ -260,9 +265,59 @@ footer .contacto .formulario-contacto .formulario .botton {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1324px) {
-  header {
+@media screen and (max-width: 1200px) {
+  body header .contenedor {
+    width: 80%;
+    margin: auto;
+  }
+  body header .contenedor .menu {
+    flex-direction: column;
+  }
+  body header .contenedor .menu .logo-menu {
+    justify-content: space-between;
+  }
+  body header .contenedor .menu .logo-menu .hamburguer {
+    display: inline-block;
+    color: #e9cb25;
+    font-size: 35px;
+  }
+  body header .contenedor .menu .logo-menu nav {
+    background: #e9cb25;
+    position: absolute;
     width: 100%;
+    top: 60px;
+    display: none;
+  }
+  body header .contenedor .menu .logo-menu nav li {
+    margin-bottom: 20px;
+  }
+  body header .contenedor .menu .logo-menu nav li a {
+    color: #000000;
+  }
+  body header .contenedor .menu .logo-menu nav ul {
+    flex-direction: column;
+  }
+  body header .contenedor .menu .boton {
+    display: none;
+  }
+  body header .contenedor .titular {
+    margin-top: 18vh;
+  }
+  body .conocenos .contenedor {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 800px) {
+  body header {
+    height: 550px;
+    background-size: 1000px 550px;
+    background-repeat: no-repeat;
+  }
+  body header .contenedor .titular {
+    margin-top: 15vh;
+  }
+  body header .contenedor .titular h1 {
+    font-size: 20px;
   }
 }
 
