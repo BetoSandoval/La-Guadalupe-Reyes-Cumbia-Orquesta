@@ -364,7 +364,7 @@ footer .contacto .formulario-contacto .formulario .botton {
   }
   body .conocenos .contenedor .video iframe {
     width: 300px;
-    height: 350px;
+    height: 300px;
   }
   body .eventos h4 {
     width: 150px;
@@ -376,6 +376,27 @@ footer .contacto .formulario-contacto .formulario .botton {
   }
   body .galeria .galery-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  body footer .contacto .formulario-contacto h3 {
+    width: 300px;
+  }
+  body footer .contacto .formulario-contacto .formulario input[type=text] {
+    width: 70%;
+  }
+  body footer .contacto .formulario-contacto .formulario input[type=email] {
+    width: 70%;
+  }
+  body footer .contacto .formulario-contacto .formulario textarea {
+    width: 90%;
+    height: 100px;
+    max-width: 90%;
+    min-width: 80%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+  }
+  body footer .contacto .formulario-contacto .formulario .botton {
+    border-radius: 1.5px;
   }
 }
 
