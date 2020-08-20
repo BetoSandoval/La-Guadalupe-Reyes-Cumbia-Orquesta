@@ -375,7 +375,7 @@ footer .contacto .formulario-contacto .formulario .botton {
     font-size: 15px;
   }
   body .galeria .galery-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
