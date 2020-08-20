@@ -396,7 +396,8 @@ footer .contacto .formulario-contacto .formulario .botton {
     margin-bottom: 15px;
   }
   body footer .contacto .formulario-contacto .formulario .botton {
-    border-radius: 1.5px;
+    width: 200px;
+    height: 70px;
   }
 }
 
