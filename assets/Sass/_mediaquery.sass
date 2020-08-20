@@ -13,6 +13,7 @@ $base-black: #000000
                     .logo-menu
                         justify-content: space-between
                         img 
+                            width: 70px
                         .hamburguer
                             display: inline-block
                             color: $base-yellow
@@ -46,9 +47,16 @@ $base-black: #000000
            background-repeat: no-repeat
            .contenedor
                 .titular
-                    margin-top: 15vh
+                    margin-top: 20vh
                     h1 
+                        width: 100%
                         font-size: 20px
+                    .social-media
+                        h2
+                            font-size: 15px
+                        div 
+                            width: 50%
+
 
 @media screen and ( max-width: 500px  )
     body
@@ -58,9 +66,15 @@ $base-black: #000000
            background-repeat: no-repeat
            .contenedor
                 .titular
-                    margin-top: 10vh
+                    margin-top: 15vh
                     h1 
                         font-size: 13px
+                    .social-media
+                        div
+                            width: 70%
+                            a
+                                font-size:15px
+
         .conocenos
             .contenedor
                 .texto
@@ -68,3 +82,7 @@ $base-black: #000000
                     .integrantes
                         img 
                             width: 300px
+                .video
+                    iframe
+                        width: 300px
+                        height: 350px

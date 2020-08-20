@@ -120,6 +120,10 @@ header .contenedor .titular .social-media div a {
 .conocenos .contenedor .video {
   border-radius: 6px;
 }
+.conocenos .contenedor .video iframe {
+  width: 550px;
+  height: 250px;
+}
 
 .eventos {
   width: 90%;
@@ -276,6 +280,9 @@ footer .contacto .formulario-contacto .formulario .botton {
   body header .contenedor .menu .logo-menu {
     justify-content: space-between;
   }
+  body header .contenedor .menu .logo-menu img {
+    width: 70px;
+  }
   body header .contenedor .menu .logo-menu .hamburguer {
     display: inline-block;
     color: #e9cb25;
@@ -314,10 +321,17 @@ footer .contacto .formulario-contacto .formulario .botton {
     background-repeat: no-repeat;
   }
   body header .contenedor .titular {
-    margin-top: 15vh;
+    margin-top: 20vh;
   }
   body header .contenedor .titular h1 {
+    width: 100%;
     font-size: 20px;
+  }
+  body header .contenedor .titular .social-media h2 {
+    font-size: 15px;
+  }
+  body header .contenedor .titular .social-media div {
+    width: 50%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -327,16 +341,26 @@ footer .contacto .formulario-contacto .formulario .botton {
     background-repeat: no-repeat;
   }
   body header .contenedor .titular {
-    margin-top: 10vh;
+    margin-top: 15vh;
   }
   body header .contenedor .titular h1 {
     font-size: 13px;
+  }
+  body header .contenedor .titular .social-media div {
+    width: 70%;
+  }
+  body header .contenedor .titular .social-media div a {
+    font-size: 15px;
   }
   body .conocenos .contenedor .texto {
     width: 100%;
   }
   body .conocenos .contenedor .texto .integrantes img {
     width: 300px;
+  }
+  body .conocenos .contenedor .video iframe {
+    width: 300px;
+    height: 350px;
   }
 }
 
