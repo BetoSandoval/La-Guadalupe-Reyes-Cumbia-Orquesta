@@ -285,7 +285,7 @@ footer .whatsapp a {
 
 @media screen and (max-width: 1200px) {
   body header .contenedor {
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
   body header .contenedor .menu {
@@ -306,7 +306,8 @@ footer .whatsapp a {
     background: #e9cb25;
     position: absolute;
     width: 100%;
-    top: 60px;
+    right: 0.1%;
+    top: 65px;
     display: none;
   }
   body header .contenedor .menu .logo-menu nav li {
@@ -322,7 +323,7 @@ footer .whatsapp a {
     display: none;
   }
   body header .contenedor .titular {
-    margin-top: 18vh;
+    margin-top: 35vh;
   }
   body .conocenos .contenedor {
     flex-direction: column-reverse;
