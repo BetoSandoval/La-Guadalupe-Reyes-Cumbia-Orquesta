@@ -323,13 +323,13 @@ footer .whatsapp a {
     display: none;
   }
   body header .contenedor .titular {
-    margin-top: 35vh;
+    margin-top: 25vh;
   }
   body .conocenos .contenedor {
     flex-direction: column-reverse;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   body header {
     height: 550px;
     background-size: 1000px 550px;
