@@ -52,10 +52,12 @@ header .contenedor .menu .boton {
   border-radius: 3px;
   font-size: 12px;
   height: 50%;
+  top: 10px;
 }
 header .contenedor .menu .boton a {
   color: #000000;
   padding: 20px 40px;
+  font-size: 40px;
   text-decoration: none;
   line-height: 50px;
 }
@@ -267,6 +269,18 @@ footer .contacto .formulario-contacto .formulario .botton {
   border-radius: 3px;
   padding: 15px 40px;
   cursor: pointer;
+}
+footer .whatsapp {
+  background: #000000;
+  text-align: center;
+  padding: 15px 0px;
+}
+footer .whatsapp h3 {
+  color: #ffffff;
+}
+footer .whatsapp a {
+  font-size: 60px;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1200px) {
