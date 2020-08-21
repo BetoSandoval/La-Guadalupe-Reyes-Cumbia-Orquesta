@@ -341,7 +341,7 @@ footer .contacto .formulario-contacto .formulario .botton {
     background-repeat: no-repeat;
   }
   body header .contenedor .titular {
-    margin-top: 15vh;
+    margin-top: 17vh;
   }
   body header .contenedor .titular h1 {
     font-size: 13px;
@@ -397,7 +397,7 @@ footer .contacto .formulario-contacto .formulario .botton {
   }
   body footer .contacto .formulario-contacto .formulario .botton {
     width: 200px;
-    height: 70px;
+    height: 50px;
   }
 }
 
