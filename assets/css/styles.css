@@ -52,7 +52,7 @@ header .contenedor .menu .boton {
   border-radius: 3px;
   font-size: 12px;
   height: 50%;
-  top: 10px;
+  margin: 20px 0px;
 }
 header .contenedor .menu .boton a {
   color: #000000;
@@ -306,7 +306,7 @@ footer .whatsapp a {
     background: #e9cb25;
     position: absolute;
     width: 100%;
-    right: 0.1%;
+    right: 0%;
     top: 65px;
     display: none;
   }
