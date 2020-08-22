@@ -282,6 +282,21 @@ footer .whatsapp a {
   font-size: 60px;
   color: #ffffff;
 }
+footer .top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  display: block;
+  background: #ffffff;
+  color: #000000;
+  padding: 0.3rem 1rem;
+  transition: all 0.5s linear;
+  opacity: 0.3;
+  font-size: 30px;
+}
+footer .top:hover {
+  opacity: 1;
+}
 
 @media screen and (max-width: 1200px) {
   body header .contenedor {
