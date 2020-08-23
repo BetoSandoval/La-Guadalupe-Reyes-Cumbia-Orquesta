@@ -11,12 +11,12 @@ $(document).ready(function () {
 
   function checkScreenSize() {
     let newWindowWidth = $(window).width();
-    if (newWindowWidth < 1300) {
-      boton.on("click", function show() {
+    if (newWindowWidth < 1200 ) {
+      boton.on("click", function () {
         menu.slideToggle(1000);
       });
     
-      menu.on("click", function hide() {
+      menu.on("click", function () {
         menu.fadeOut();
       });
 
